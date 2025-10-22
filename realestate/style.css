@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+  text-align: center;
+  margin: 30px;
+}
+
+h2 {
+  color: #333;
+  margin: 30px 0 15px 0;
+}
+
+table.real-estate {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 0 auto 40px auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  color: #000;
+  font-size: 16px;
+}
+
+/* ------------------------
+   COLUMN COLORS
+------------------------- */
+th:nth-child(1), td:nth-child(1) { background-color: #ff9999; } /* Red */
+th:nth-child(2), td:nth-child(2) { background-color: #ffcc99; } /* Orange */
+th:nth-child(3), td:nth-child(3) { background-color: #ffff99; } /* Yellow */
+th:nth-child(4), td:nth-child(4) { background-color: #99ff99; } /* Green */
+th:nth-child(5), td:nth-child(5) { background-color: #99ccff; } /* Blue */
+
+/* ------------------------
+   ROW COLORS - FIRST TABLE
+------------------------- */
+table.real-estate tr:nth-child(2) td { background-color: #ffe6e6; }
+table.real-estate tr:nth-child(3) td { background-color: #fff0e6; }
+table.real-estate tr:nth-child(4) td { background-color: #f0ffe6; }
+table.real-estate tr:nth-child(5) td { background-color: #e6f0ff; }
+
+/* ------------------------
+   SECOND TABLE COLORS
+------------------------- */
+table.second th:nth-child(1), table.second td:nth-child(1) { background-color: #ffb3b3; } /* light red */
+table.second th:nth-child(2), table.second td:nth-child(2) { background-color: #ffd699; } /* light orange */
+table.second th:nth-child(3), table.second td:nth-child(3) { background-color: #ffffb3; } /* light yellow */
+table.second th:nth-child(4), table.second td:nth-child(4) { background-color: #b3ffb3; } /* light green */
+table.second th:nth-child(5), table.second td:nth-child(5) { background-color: #b3e0ff; } /* light blue */
+
+/* Second table rows */
+table.second tr:nth-child(2) td { background-color: #ffe6f0; }
+table.second tr:nth-child(3) td { background-color: #fff5e6; }
+table.second tr:nth-child(4) td { background-color: #e6ffe6; }
+table.second tr:nth-child(5) td { background-color: #e6f5ff; }
